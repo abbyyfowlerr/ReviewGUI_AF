@@ -1,10 +1,15 @@
 from tkinter import *
 from ttkbootstrap.constants import *
 import ttkbootstrap as tb
+from pathlib import Path
+from MainApplication import MainApplication
 
-root = tb.Window(themename='darkly')
-root.title("ReviewGUI")
-root.iconbitmap('favicon.ico')
-root.geometry('500x350')
+def main():
+    root = tb.Window(themename='darkly')
+    app = MainApplication(root)
+    app.pack(side="top", fill="both", expand=True)
 
-root.mainloop()
+    root.mainloop()
+
+if __name__ == "__main__":
+    main()
