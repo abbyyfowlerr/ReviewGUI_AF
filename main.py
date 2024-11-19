@@ -4,7 +4,7 @@ import ttkbootstrap as tb
 
 root = tb.Window(themename='darkly')
 root.title("ReviewGUI")
-root.iconbitmap('favicon.png')
+root.iconbitmap('favicon.ico')
 root.geometry('500x350')
 
 root.mainloop()
