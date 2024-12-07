@@ -15,7 +15,7 @@ def main():
         print('Error detecting os theme')
 
     root = tb.Window(themename=theme)
-    root.geometry("820x700")
+    root.geometry("745x680")
     app = MainApplication(root)
     app.pack(side="top", fill="both", expand=True)
     root.mainloop()
